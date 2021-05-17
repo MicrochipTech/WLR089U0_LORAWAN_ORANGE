@@ -341,6 +341,20 @@ Tx Data Sent
 Transmission Success
 ```
 
+> The regional parameters such as default Data Rate can be set in `conf_regparams.h`\
+E.g. for `EU_BAND`:
+
+```
+#if (EU_BAND == 1)
+
+#define MAC_DEF_TX_POWER_EU					(1)
+#define MAC_DEF_TX_CURRENT_DATARATE_EU		(DR0)
+#define MAC_DATARATE_MIN_EU					(DR7)
+#define MAC_DATARATE_MAX_EU					(DR0)
+#define FEATURES_SUPPORTED_EU               (DUTY_CYCLE_SUPPORT|JOIN_BACKOFF_SUPPORT)
+#endif
+```
+
 ## LoRa Serial Provisioning Demo<a name="step8"></a>
 
 ### Run the demo
