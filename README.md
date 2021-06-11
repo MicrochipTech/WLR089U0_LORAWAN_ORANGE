@@ -1,4 +1,6 @@
 # WLR089U0_LORAWAN_ORANGE
+<img src="resources/media/IoT-Made-Easy-Logo.png" width=100>
+
 > "Wireless Made Easy!" - Getting Started with WLR089U0 and Orange LoRaWAN Network
 
 Devices: | **WLR089U0**
